@@ -49,7 +49,7 @@ return arr.map(country => `<li class="country-item">
 };
 
 function createMarkupDetail(arr) {
-  console.log(arr);
+  
     return arr.map(country => `<div class="country-title"><img class="county-flag" src="${country.flags.svg}" alt="${country.name.official}" width="30px" height="20px"> <h2>${country.name.official}</h2></div>
     <ul class="country-info">
       <li><p class="info-data"><span class="info-subtitle">Capital: </span> ${country.capital}</p>
